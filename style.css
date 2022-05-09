@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.timer-container {
+  padding: 30px 200px;
+  background-color: #fff;
+  border-radius: 60px;
+}
+
+.timer-header {
+  font-size: 3rem;
+  width: 100%;
+  margin: 15px;
+}
+
+.timer-header h3 {
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+  font-size: 2rem;
+}
+.timer input {
+  font-size: 4rem;
+  text-align: center;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+.timer input:focus {
+  outline: thin solid #00a4ff;
+  border-radius: 10px;
+}
+
+.timer button {
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px 40px;
+  background-color: #00a4ff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+#reset {
+  background-color: red;
+}
+
+#stop {
+  background-color: green;
+}
+
+.timer p {
+  position: relative;
+  top: 16px;
+}
